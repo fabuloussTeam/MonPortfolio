@@ -136,7 +136,6 @@ const body = document.body;
     }
 
 
-
 // Check for saved user preference
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme === 'dark') {

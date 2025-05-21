@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=5.0" />
     <meta name="description" content="Portfolio of Emmanuel Tjom - AI & Web Developer with 3+ years of experience in frontend, backend and machine learning technologies.">
     <meta name="keywords" content="AI Developer, Web Developer, Portfolio, Emmanuel Tjom, React, Node.js, Python, Machine Learning">
     <meta name="author" content="Emmanuel Tjom">
@@ -27,6 +27,7 @@
     <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css" />
     <link rel="canonical" href="https://yourportfolio.com/" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -499,32 +500,6 @@
               ></a>
             </div>
           </div>
-          <form class="contact-form" aria-label="Contact form">
-            <div class="form-group">
-              <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name" />
-            </div>
-            <div class="form-group">
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-                aria-label="Your Email"
-              />
-            </div>
-            <div class="form-group">
-              <input type="text" name="subject" placeholder="Subject" aria-label="Subject" />
-            </div>
-            <div class="form-group">
-              <textarea
-                placeholder="Your Message"
-                name="message"
-                required
-                aria-label="Your Message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
         </div>
       </div>
     </section>
@@ -537,16 +512,7 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
-    <script>
-      // Chargement différé du script EmailJS
-      document.addEventListener('DOMContentLoaded', function() {
-        emailjs.init({
-          publicKey: "public_xxxxxxxxxxxxxxxxx",
-        });
-      });
-    </script>
+  
     <script src="script.js" defer></script>
   </body>
 </html>
